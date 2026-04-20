@@ -145,24 +145,33 @@ This project demonstrates how SDN can be used to implement static routing and co
 
 ##  Proof of Execution
 
-(Add screenshots here in your GitHub repo)
 
 * Ping success (h1 → h3)
   ![ping_success](https://github.com/user-attachments/assets/ac745683-ce90-441b-83d4-95d7be9653a2)
+
+  
   
 * Ping failure (h1 → h2)
   ![ping_failure](https://github.com/user-attachments/assets/08c65a87-085e-46f7-add7-cf1457e002c1)
+
+  
   
 * Latency
   The latency measured using ping shows minimal delay, indicating efficient packet forwarding.
   
   ![latency](https://github.com/user-attachments/assets/f7dc6b25-9b85-426a-b10a-5e38ef7cec2f)
+  
   Latency (avg): 3.175 ms
   942 Mbits/sec
 
-* iperf results
-  Throughput measured using iperf confirms successful data transfer between hosts. Flow table inspection shows that packets follow the intended path via switch s3, while no rules are installed on s2, effectively blocking that path.
+
+
+* iperf results(THROUGHPUT)
+* 
+  Throughput measured using iperf confirms successful data transfer between hosts. Flow table inspection shows that packets follow the intended path via switch     s3, while no rules are installed on s2, effectively blocking that path.
+  
   ![THROOUGHPUT](https://github.com/user-attachments/assets/4ebccc16-8c8b-4303-8a59-e9c94225aecd)
+  
   Transfer: 35.3 GBytes  
   Bandwidth: 30.3 Gbits/sec
   
@@ -174,9 +183,11 @@ This project demonstrates how SDN can be used to implement static routing and co
     •	Continuous, stable transmission 
     •	No packet drops or interruptions 
 
-  
+
 * Flow table output
   ![flow_table](https://github.com/user-attachments/assets/c6947d3a-ecc2-4945-a32a-52124e1c60b3)
+
+  
   
 ---
 
